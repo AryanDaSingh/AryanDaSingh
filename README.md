@@ -3,7 +3,7 @@
 - Digital Strand KS5 Mentor @ Garden International School Kuala Lumpur
 - Tech enthusiast (Currently back-end)
 
-Coding languages:
+Coding languages: <br />
 Know:
 - Python, C++, Java, SQLite (to the level of iGCSE Computer Science 2025)
 Currently learning:
