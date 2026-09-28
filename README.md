@@ -9,5 +9,5 @@ Know:
 Currently learning:
 - Full-stack Engineering (Responsive web-dev + backend scripting and databases)
 
-May not be perfect but we are all constantly improving
+May not be perfect but we are all constantly improving <br />
 Inspirational Quote: "Loyalty is a two way street, if I'm expecting it from you, then you're getting it from me" - Gabriel Macht as Harvey Specter
