@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #1F2937;
+    --primary-text: #F9FAF8;
+    --primary-text-dark: #1F2937;
+    --secondary-text: #E5E7EB;
+    --common-blue: #3882F6;
+}
+
+* {
+    outline: 1px solid red;
+}
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+nav .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    color: var(--secondary-text);
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem 160px;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--primary-text);
+}
+
+.hero {
+    display: flex;
+    background-color: var(--primary-color);
+    padding: 5rem 160px;
+    gap: 1rem;
+}
+
+.left {
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+}
+
+.left .title {
+    font-size: 48px;
+    color: var(--primary-text);
+    font-weight: 900;
+}
+
+.left .subtext {
+    font-size: 18px;
+    color: var(--secondary-text);
+}
+
+.signup-btn button {
+    background-color: var(--common-blue);
+    color: var(--primary-text);
+    font-weight: bold;
+    padding: 8px 1.7rem;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.hero .left,
+.hero .img-placeholder {
+    flex: 1;
+}
+
+.hero .img-placeholder {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-text);
+    min-height: 200px
+}
+
+.info {
+    display: flex;
+    flex-flow: column;
+    padding: 3rem 160px;
+    padding-bottom: 5rem;
+    gap: 2rem;
+}
+
+.info .title {
+    font-size: 36px;
+    color: var(--primary-text-dark);
+    font-weight: 900;
+    text-align: center;
+}
+
+.info .card {
+    width: 120px;
+    height: 120px;
+    border: 4px solid var(--common-blue);
+    border-radius: 8px;
+}
+
+.info .card-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.info .subtext {
+    width: 120px;
+    color: var(--primary-text-dark);
+    font-size: 14px;
+    text-align: center;
+}
+
+.info .full-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
