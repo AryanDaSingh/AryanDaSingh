@@ -6,9 +6,9 @@
     --common-blue: #3882F6;
 }
 
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 body {
     font-family: 'Roboto';
@@ -129,4 +129,73 @@ header {
     justify-content: center;
     gap: 2rem;
 
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: column;
+    padding: 3rem 320px;
+    background-color: var(--secondary-text);
+    gap: 0.75rem;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    color: var(--primary-color);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container .author {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--common-blue);
+    margin: 3rem 160px;
+    padding: 2rem 0;
+    border-radius: 8px;
+}
+
+.cta-container .cta-text {
+    display: flex;
+    flex-flow: column;
+    gap: 6px;
+}
+
+.cta-text .title {
+    color: var(--primary-text);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta-text .subtext {
+    color: var(--secondary-text);
+}
+
+.cta-btn {
+    background-color: var(--common-blue);
+    color: var(--primary-text);
+    font-weight: bold;
+    padding: 8px 1.7rem;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+footer p {
+    color: var(--primary-text);
 }
