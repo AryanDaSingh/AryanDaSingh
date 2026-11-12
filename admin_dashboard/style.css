@@ -1,0 +1,163 @@
+@import url('https://googleapis.com');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: inherit;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    gap: 0.5em;
+    font-weight: bold;
+}
+
+.text {
+    line-height: 1;
+}
+
+.logo svg {
+    width: 64px; height: auto;
+    display: block;
+    transform: translateY(-2px);
+    fill: white;
+}
+
+.card svg {
+    width: 40px; height: auto;
+    display: block;
+    transform: translateY(-2px);
+    fill: white;
+}
+
+.card-container {
+    width: fit-content;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+}
+
+.card-container ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    gap: 1em;
+}
+
+nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    width: fit-content;
+    height: 100%;
+    gap: 4em;
+    padding: 2em;
+    background-color: dodgerblue;
+    color: white;
+}
+
+main {
+    width: 100%;
+    background-color: lightgray;
+    opacity: 0.7;
+}
+
+main svg {
+    width: 40px; height: auto;
+}
+
+.header {
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 1px 8px 13px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4em;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.search-bar .search {
+    background-color: lightgray;
+    opacity: 0.7;
+    border: none;
+    border-radius: 16px;
+    width: 60em;
+    height: 2.5em;
+}
+
+.accounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.accounts .text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.accounts svg {
+    display: block;
+    transform: translateY(-2px);
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greeting .text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.action-btn {
+    border-radius: 99px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1.5rem;
+    width: 110px;
+    height: 50px;
+}
