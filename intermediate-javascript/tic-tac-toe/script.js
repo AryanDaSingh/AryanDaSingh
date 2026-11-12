@@ -49,8 +49,6 @@ function updateText(text) {
 }
 
 function checkWin() {
-    let status = false; // lwk idk if i'll use ts
-
     for (let i = 0; i < 3; i++) {
         // Straights
         if (matrix[0][i] === matrix[1][i] && matrix[1][i] === matrix[2][i]) {

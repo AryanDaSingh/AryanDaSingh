@@ -41,3 +41,7 @@ body {
     height: fit-content;
     gap: 80px;
 }
+
+.correct {
+    background-color: lime;
+}
