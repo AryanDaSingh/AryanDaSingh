@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- Digital Strand KS5 Mentor @ Garden International School Kuala Lumpur
+- Digital Strand KS5 Co-Director @ Garden International School Kuala Lumpur
 - Tech enthusiast (Currently back-end)
 
 Coding languages:
