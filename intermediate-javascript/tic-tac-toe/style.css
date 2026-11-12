@@ -32,3 +32,12 @@ body {
 .grid-item:hover {
     cursor: pointer;
 }
+
+.flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    gap: 80px;
+}
