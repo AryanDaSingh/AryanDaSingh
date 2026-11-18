@@ -12,18 +12,21 @@ function Header() {
   );
 }
 
+function Part(props) {
+  const name = props.name;
+  const ex = props.ex;
+
+  return(
+    <p>{name} {ex}</p>
+  );
+}
+
 function Content() {
   return(
     <>
-      <p>
-        {part1} {exercises1}
-      </p>
-      <p>
-        {part2} {exercises2}
-      </p>
-      <p>
-        {part3} {exercises3}
-      </p>
+      <Part name={part1} ex={exercises1} />
+      <Part name={part2} ex={exercises2} />
+      <Part name={part3} ex={exercises3} />
     </>
   );
 }
