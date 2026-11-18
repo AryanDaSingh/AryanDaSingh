@@ -6,13 +6,13 @@ const exercises2 = 7;
 const part3 = 'State of a component';
 const exercises3 = 14;
 
-function Header() {
+const Header = () => {
   return(
     <h1>{course}</h1>
   );
 }
 
-function Part(props) {
+const Part = (props) => {
   const name = props.name;
   const ex = props.ex;
 
@@ -21,7 +21,7 @@ function Part(props) {
   );
 }
 
-function Content() {
+const Content = () => {
   return(
     <>
       <Part name={part1} ex={exercises1} />
@@ -31,7 +31,7 @@ function Content() {
   );
 }
 
-function Total() {
+const Total = () => {
   const total = exercises1 + exercises2 + exercises3;
 
   return(
@@ -39,7 +39,7 @@ function Total() {
   );
 }
 
-function App() {
+const App = () => {
 
   return(
     <>
