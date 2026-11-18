@@ -40,7 +40,6 @@ const Total = () => {
 }
 
 const App = () => {
-
   return(
     <>
       <Header />
